@@ -1,0 +1,287 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4.8rem;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.subtitle {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+/*Navbar*/
+nav {
+  background-color: #0c343d;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+  padding: 2.1rem;
+  font-weight: bolder;
+  position: fixed;
+  width: 100%;
+}
+
+​
+#bootstrap h3{
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+
+  nav a:hover{
+    color: #55cca2;
+  }
+
+
+  nav ul {
+    display: flex;
+    padding-right: 25vh;
+  }
+
+  nav ul li {
+    padding: 0.7rem;
+  }
+
+
+
+/*Main */
+
+/*Start Bootstrap*/
+#start {
+  background-color: #1ABC9C;
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+  #start #image{
+    border-radius: 50%;
+  }
+
+  #start #main-text{
+    font-size: 4rem;
+    font-weight: bolder;
+    padding: 2rem;
+  }
+
+  #start #roles {
+    font-size: 1.5rem;
+  }
+
+  #start .icon {
+    padding-bottom: 2rem;
+  }
+
+
+/* Portfolio */
+#portfolio {
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 59rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  #portfolio .icon{
+    padding: 1rem;
+  }
+
+  #portfolio .list #first-row,
+  #portfolio .list #second-row{
+    display: flex;
+  }
+
+  #portfolio .list img{
+    border-radius: 5%;
+    padding: 0.4rem;
+  }
+
+    #portfolio .list img:hover{
+      border-radius: 5%;
+      background-color: #1ABC9C;
+    }
+/* About */
+
+#about {
+  background-color: #1ABC9C;
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: auto;
+}
+
+#about .icon{
+  padding: 1rem;
+}
+  #about .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    padding: 3rem;
+    font-size: 1.3rem; 
+  }
+
+    #about button {
+      display: flex;
+      justify-content: center;
+      color: white;
+      background-color: #1ABC9C;
+      padding: 1.6rem;
+      margin: 1rem 0 1rem 0;
+      border: 1.4px solid #fff;
+      border-radius: 8%;
+      font-size: 1.2rem;
+    }
+    
+    #about button:hover{
+      color: #000;
+      background-color: #fff;
+    }
+
+      #about button .text-2{
+        padding-left: 1rem;
+      }
+
+/* Contact */
+#contact {
+  background-color: #f3f3f3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.5rem;
+}
+
+#contact .icon{
+  padding: 1rem;
+}
+
+  #contact #form{
+    display: flex;
+    flex-direction: column;
+    line-height: 4rem;
+    font-size: 1.6rem;
+    margin-top: 5vh;
+  }
+
+  #contact #form input{
+    height: 3.7rem;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: #f3f3f3ff;
+    font-size: 1.3rem;
+  }
+
+  #contact #form textarea{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: #f3f3f3ff;
+    font-size: 1.3rem;
+    height: 6.2rem;
+  }
+
+  #contact button{
+    margin-left: -29vw;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+    padding: 1.2rem;
+    background-color: #55cca2;
+    border: none;
+    border-radius: 10%;
+    font-size: 1.2rem;
+    color: white;
+  }
+
+
+
+
+
+/*Info */
+
+#info {
+  background-color: #1e4a73;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 5.6rem 7.5rem;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+  #info h4 {
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+  }
+
+  #info #around-list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+  }
+
+    #info #around-list  a {
+      color: #fff;
+      padding: 0.5rem;
+      border: 1px solid #fff;
+      border-radius: 100%;
+      text-decoration: none;
+    }
+
+    #info #around-list a:hover {
+      color: #000;
+      background-color: #fff;
+      padding: 0.5rem;
+      border: 1px solid #fff;
+      border-radius: 100%;
+      text-decoration: none;
+    }
+
+
+  #info #bootstrap-link {
+    color: #55cca2;
+    border: none;
+  }
+
+  #info #bootstrap-link:hover {
+    color: #1ABC9C;
+  }
+
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #0c343d;
+  color: #fff;
+  padding: 1.9rem;
+}
